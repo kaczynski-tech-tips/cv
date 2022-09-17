@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #515C7C;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+}
+
+.header {
+    background-color: #966480;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.headertext {
+    background-color: #966480;
+    font-size: 32px;
+}
+
+.headersubtext {
+    background-color: #966480;
+    font-size: 15px;
+}
+
+.link {
+    color: #F7928B;
+    text-decoration: none;
+}
+.link:hover {
+    color: #F8B195;
+    text-decoration: none;
+}
+
+.top {
+    display: grid;
+    column-count: 2;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+
+}
+
+.imgborder {
+    border: 1px solid wheat;
+}
+
+.topimg1 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 80px;
+}
+
+.topimg2 {
+    position: absolute;
+    left: 0;
+    top: 230px;
+    width: 80px;
+}
+
+.intro{
+    text-align: center;
+
+    display: block;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+}
+
+.middle {
+    display: grid;
+    column-count: 3;
+    grid-template-columns: 275px 1fr 1fr;
+    align-content: center;
+
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 0%;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #6C5B7B;
+    display: flex;
+}
+
+.lang {
+    margin-top: 10px;
+    column-count: 2;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 20px;
+}
+
+.lang-item {
+    align-self: center;
+}
+
+.landexp {
+    margin-top: 10px;
+    column-count: 2;
+    display: float;
+}
+
+.skills {
+    margin-top: 10px;
+    display: float;
+    float: left;
+}
+
+.item {
+    display: block;
+}
+
+.contact {
+    background-color: #6C5B7B;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    
+}
+
+.contact:hover {
+    background-color: #966480;
+}
+
+.copy {
+    background-color: #6C5B7B;
+    text-align: center;
+    /* Originally I had the code as locking onto the right becuase it looked better,
+        but obviously that isn't what is required. I have included it here anyway.*/
+    /*
+    right:0;
+    padding: 10px;
+    font-size: 10px;
+    */
+
+    position:absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: #C06C84;
+    font-family: 'Courier New', Courier, monospace
+}
+
+p {
+    font-family: Montserrat, latin, monospace;
+}
+
+hr {
+    border-top: 1px solid wheat;
+    opacity: 0.2;
+}
+
+.submit {
+    background-color: #6C5B7B;
+    padding: 10px;
+    font-size: auto;
+    border-radius: 12px;
+    border: 1px solid #454675;
+}
